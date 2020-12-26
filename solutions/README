@@ -1,0 +1,22 @@
+This zip includes my code for challenges from 1 to 13 and 16.
+
+Comments:
+
+* Challenge 2: I did not submit correctly the source file, here it is
+
+* Challenge 4: there are 3 files:
+
+    - challenge04-pre1.py: takes the 8 gb integers file to make a shorter list
+     of integers without the interval with consecutive numbers
+     
+    - challenge04-pre2.py: takes the shorter list of numbers and gets the
+     missing ones to make an array
+     
+    - challenge04.py: with this array of 100 numbers, returns the correct
+     the missing number according to the position
+ 
+* Challenge 12: I didn't submit it (actually I didn't pass the test). Though I
+ think I got really close to it.
+
+* Challenge 16: I din't submit it but I did pass the test (I din't have time to
+ submit it)

